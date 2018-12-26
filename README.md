@@ -25,6 +25,9 @@
 ### Negative side
 * Может привести к созданию больших параллельных иерархий классов, так как для каждого класса продукта надо создать свой подкласс создателя
 
+
+
+
 ## Create protocol
 
 ```swift
@@ -80,7 +83,7 @@ class Bus: Vehicle {
 
 ## Workspace
 
-### Create func for choose transport
+#### Create func for choose transport
 
 ```swift
 func chooseTransport(name: Transport) {
@@ -111,11 +114,11 @@ override func viewDidLoad() {
 ## Another example
 
 <div align = "center">
-<img src="/images/example.jpg" width="600">
+<img src="/images/example.png" width="750">
 </div>
 
 <div align = "center">
-<img src="/images/problem.jpg" width="600">
+<img src="/images/problem.png" width="750">
 </div>
 
 ## Requirements
