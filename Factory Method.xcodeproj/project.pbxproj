@@ -56,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				8431A64E21D39BB30052E262 /* README.md */,
+				8431A66221D3A50F0052E262 /* images */,
 				8431A62E21D396B80052E262 /* Factory Method */,
 				8431A62D21D396B80052E262 /* Products */,
 			);
@@ -79,7 +80,6 @@
 				8431A64C21D398F00052E262 /* Kitchen.swift */,
 				8431A64B21D398C40052E262 /* Transport */,
 				8431A63621D396BA0052E262 /* Assets.xcassets */,
-				8431A66221D3A50F0052E262 /* images */,
 				8431A63821D396BA0052E262 /* LaunchScreen.storyboard */,
 				8431A63B21D396BA0052E262 /* Info.plist */,
 			);
