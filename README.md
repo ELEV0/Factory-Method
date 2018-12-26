@@ -91,7 +91,7 @@ func chooseTransport(name: Transport) {
     arrayDrives.append(option)
 }
 ```
-### Create func for output data
+#### Create func for output data
 
 ```swift
 func printResult() {
@@ -101,7 +101,7 @@ func printResult() {
     }
 }
 ```
-### ViewDidLoad
+#### ViewDidLoad
 
 ```swift
 override func viewDidLoad() {
