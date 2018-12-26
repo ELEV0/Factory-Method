@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var arrayDrives = [Vehicle]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        chooseTransport(name: .bus)
+        chooseTransport(name: .plane)
+        chooseTransport(name: .supercar)
+        chooseTransport(name: .train)
+        printResult()
     }
 
+    func chooseTransport(name: Transport) {
+        let option = Singletone.shared.createDrive(type: name)
+        arrayDrives.append(option)
+    }
+    
+    func printResult() {
+        for i in arrayDrives {
+            i.startPoint()
+            i.endPoint()
+        }
+    }
 
 }
 

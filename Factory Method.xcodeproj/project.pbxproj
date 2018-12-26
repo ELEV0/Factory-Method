@@ -12,6 +12,14 @@
 		8431A63521D396B80052E262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431A63321D396B80052E262 /* Main.storyboard */; };
 		8431A63721D396BA0052E262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8431A63621D396BA0052E262 /* Assets.xcassets */; };
 		8431A63A21D396BA0052E262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431A63821D396BA0052E262 /* LaunchScreen.storyboard */; };
+		8431A64221D396DD0052E262 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64121D396DD0052E262 /* Protocol.swift */; };
+		8431A64421D397550052E262 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64321D397540052E262 /* Bus.swift */; };
+		8431A64621D397BF0052E262 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64521D397BF0052E262 /* Plane.swift */; };
+		8431A64821D398130052E262 /* Supercar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64721D398130052E262 /* Supercar.swift */; };
+		8431A64A21D398780052E262 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64921D398780052E262 /* Train.swift */; };
+		8431A64D21D398F00052E262 /* Kitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A64C21D398F00052E262 /* Kitchen.swift */; };
+		8431A65221D3A0ED0052E262 /* problem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8431A65021D3A0ED0052E262 /* problem.jpg */; };
+		8431A65321D3A0ED0052E262 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8431A65121D3A0ED0052E262 /* example.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,15 @@
 		8431A63621D396BA0052E262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8431A63921D396BA0052E262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8431A63B21D396BA0052E262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431A64121D396DD0052E262 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		8431A64321D397540052E262 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		8431A64521D397BF0052E262 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		8431A64721D398130052E262 /* Supercar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supercar.swift; sourceTree = "<group>"; };
+		8431A64921D398780052E262 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		8431A64C21D398F00052E262 /* Kitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen.swift; sourceTree = "<group>"; };
+		8431A64E21D39BB30052E262 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8431A65021D3A0ED0052E262 /* problem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = problem.jpg; sourceTree = "<group>"; };
+		8431A65121D3A0ED0052E262 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,8 @@
 		8431A62321D396B80052E262 = {
 			isa = PBXGroup;
 			children = (
+				8431A64E21D39BB30052E262 /* README.md */,
+				8431A64F21D3A0D90052E262 /* images */,
 				8431A62E21D396B80052E262 /* Factory Method */,
 				8431A62D21D396B80052E262 /* Products */,
 			);
@@ -57,11 +76,34 @@
 				8431A62F21D396B80052E262 /* AppDelegate.swift */,
 				8431A63121D396B80052E262 /* ViewController.swift */,
 				8431A63321D396B80052E262 /* Main.storyboard */,
+				8431A64121D396DD0052E262 /* Protocol.swift */,
+				8431A64C21D398F00052E262 /* Kitchen.swift */,
+				8431A64B21D398C40052E262 /* Transport */,
 				8431A63621D396BA0052E262 /* Assets.xcassets */,
 				8431A63821D396BA0052E262 /* LaunchScreen.storyboard */,
 				8431A63B21D396BA0052E262 /* Info.plist */,
 			);
 			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		8431A64B21D398C40052E262 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				8431A64321D397540052E262 /* Bus.swift */,
+				8431A64521D397BF0052E262 /* Plane.swift */,
+				8431A64721D398130052E262 /* Supercar.swift */,
+				8431A64921D398780052E262 /* Train.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		8431A64F21D3A0D90052E262 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8431A65121D3A0ED0052E262 /* example.jpg */,
+				8431A65021D3A0ED0052E262 /* problem.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8431A63A21D396BA0052E262 /* LaunchScreen.storyboard in Resources */,
+				8431A65321D3A0ED0052E262 /* example.jpg in Resources */,
 				8431A63721D396BA0052E262 /* Assets.xcassets in Resources */,
 				8431A63521D396B80052E262 /* Main.storyboard in Resources */,
+				8431A65221D3A0ED0052E262 /* problem.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8431A64821D398130052E262 /* Supercar.swift in Sources */,
 				8431A63221D396B80052E262 /* ViewController.swift in Sources */,
+				8431A64A21D398780052E262 /* Train.swift in Sources */,
 				8431A63021D396B80052E262 /* AppDelegate.swift in Sources */,
+				8431A64621D397BF0052E262 /* Plane.swift in Sources */,
+				8431A64421D397550052E262 /* Bus.swift in Sources */,
+				8431A64D21D398F00052E262 /* Kitchen.swift in Sources */,
+				8431A64221D396DD0052E262 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
